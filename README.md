@@ -1,4 +1,25 @@
-###Depth first search
+# AI Search Algorithms Lab
+
+This repository contains implementation of various AI search algorithms.
+
+## Unique Contributions
+- Implemented programs with user interactive inputs
+- Displayed traversal path and optimal solution
+- Added algorithm comparison and complexity analysis
+- Included execution output screenshots
+- Improved code readability using functions and comments
+
+## Algorithms Implemented
+- BFS
+- DFS
+- Uniform Cost Search
+- A* Algorithm
+- Minimax Algorithm
+
+## Applications
+These algorithms are used in path finding, game AI and decision making systems.
+
+Depth first search
 
     CREATE empty set Visited
 
