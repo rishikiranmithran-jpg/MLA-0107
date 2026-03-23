@@ -1,0 +1,13 @@
+Minimax(Node, Depth, IsMax)
+
+    IF Depth = 0 OR Node is leaf THEN
+        RETURN value
+    END IF
+
+    IF IsMax THEN
+        RETURN max(Minimax(children))
+    ELSE
+        RETURN min(Minimax(children))
+    END IF
+
+END Minimax
