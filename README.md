@@ -55,14 +55,15 @@ The objective of this laboratory work is to analyse how intelligent systems expl
     END IF
 ### 💰 Uniform cost search
     CREATE priority queue PQ
-INSERT Start with cost 0
-
-WHILE PQ not empty
-    REMOVE node with minimum cost
-    IF node is Goal → STOP
-    ADD node to Visited
-    INSERT neighbours with updated cost
-END WHILE
+    INSERT Start with cost 0
+    
+    WHILE PQ not empty
+      REMOVE node with minimum cost
+      IF node is Goal → STOP
+      ADD node to Visited
+      INSERT neighbours with updated cost
+    END WHILE
+    
 ### 🚀 Greedy Best First search
 
     CREATE priority queue PQ
