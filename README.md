@@ -1,24 +1,30 @@
-# AI Search Algorithms Lab
+📘 Project Overview
 
-This repository contains implementation of various AI search algorithms.
+This repository contains the implementation of fundamental Artificial Intelligence search and decision-making algorithms.
+The objective of this laboratory work is to analyse how intelligent systems explore problem spaces, compute optimal solutions, and support automated reasoning.
 
-## Unique Contributions
-- Implemented programs with user interactive inputs
-- Displayed traversal path and optimal solution
-- Added algorithm comparison and complexity analysis
-- Included execution output screenshots
-- Improved code readability using functions and comments
+✨ Unique Contributions
 
-## Algorithms Implemented
-- BFS
-- DFS
-- Uniform Cost Search
-- A* Algorithm
-- Minimax Algorithm
+✔ Implemented algorithms using interactive user-defined inputs
+✔ Displayed traversal sequence and optimal solution path
+✔ Included computational complexity understanding
+✔ Added execution output screenshots for clarity
+✔ Structured programs using modular functions
+✔ Performed conceptual comparison between search strategies
 
-## Applications
-These algorithms are used in path finding, game AI and decision making systems.
+🧠 Algorithms Implemented
 
+🔹 Breadth First Search (BFS)
+🔹 Depth First Search (DFS)
+🔹 Uniform Cost Search
+🔹 Greedy Best First Search
+🔹 A* Search Algorithm
+🔹 Minimax Algorithm
+🔹 Alpha–Beta Pruning
+🔹 Water Jug Problem
+🔹 Decision Tree Construction
+🔹 CryptArithmetic Problem
+🔹 Basic Neural Network Training Model
 Depth first search
 
     CREATE empty set Visited
