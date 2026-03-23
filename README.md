@@ -5,12 +5,13 @@ The objective of this laboratory work is to analyse how intelligent systems expl
 
 ## ✨ Unique Contributions
 
-- ✔ Implemented algorithms using interactive user-defined inputs
-- ✔ Displayed traversal sequence and optimal solution path
-- ✔ Included computational complexity understanding
-- ✔ Added execution output screenshots for clarity
-- ✔ Structured programs using modular functions
-- ✔ Performed conceptual comparison between search strategies
+✔ Implemented algorithms using interactive user-defined inputs  
+
+✔ Displayed traversal sequence and optimal solution path
+✔ Included computational complexity understanding
+✔ Added execution output screenshots for clarity
+✔ Structured programs using modular functions  
+✔ Performed conceptual comparison between search strategies
 
 ## 🧠 Algorithms Implemented
 
