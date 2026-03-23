@@ -1,30 +1,30 @@
-###📘 Project Overview
+### 📘 Project Overview
 
 This repository contains the implementation of fundamental Artificial Intelligence search and decision-making algorithms.
 The objective of this laboratory work is to analyse how intelligent systems explore problem spaces, compute optimal solutions, and support automated reasoning.
 
-##✨ Unique Contributions
+## ✨ Unique Contributions
 
--✔ Implemented algorithms using interactive user-defined inputs
--✔ Displayed traversal sequence and optimal solution path
--✔ Included computational complexity understanding
--✔ Added execution output screenshots for clarity
--✔ Structured programs using modular functions
--✔ Performed conceptual comparison between search strategies
+- ✔ Implemented algorithms using interactive user-defined inputs
+- ✔ Displayed traversal sequence and optimal solution path
+- ✔ Included computational complexity understanding
+- ✔ Added execution output screenshots for clarity
+- ✔ Structured programs using modular functions
+- ✔ Performed conceptual comparison between search strategies
 
-##🧠 Algorithms Implemented
+## 🧠 Algorithms Implemented
 
--🔹 Breadth First Search (BFS)
--🔹 Depth First Search (DFS)
--🔹 Uniform Cost Search
--🔹 Greedy Best First Search
--🔹 A* Search Algorithm
--🔹 Minimax Algorithm
--🔹 Alpha–Beta Pruning
--🔹 Water Jug Problem
--🔹 Decision Tree Construction
--🔹 CryptArithmetic Problem
--🔹 Basic Neural Network Training Model
+- 🔹 Breadth First Search (BFS)
+- 🔹 Depth First Search (DFS)
+- 🔹 Uniform Cost Search
+- 🔹 Greedy Best First Search
+- 🔹 A* Search Algorithm
+- 🔹 Minimax Algorithm
+- 🔹 Alpha–Beta Pruning
+- 🔹 Water Jug Problem
+- 🔹 Decision Tree Construction
+- 🔹 CryptArithmetic Problem
+- 🔹 Basic Neural Network Training Model
 
 Depth first search
 
