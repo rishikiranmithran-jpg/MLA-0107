@@ -12,7 +12,7 @@ The objective of this laboratory work is to analyse how intelligent systems expl
 ✔ Structured programs using modular functions    
 ✔ Performed conceptual comparison between search strategies  
 
-## 🧠 Algorithms Implemented
+## ⚙️ Algorithms Implemented
 
  🔹 Breadth First Search (BFS)  
  🔹 Depth First Search (DFS)  
@@ -26,7 +26,7 @@ The objective of this laboratory work is to analyse how intelligent systems expl
  🔹 CryptArithmetic Problem  
  🔹 Basic Neural Network Training Model  
 
-Depth first search
+# 🔎 Depth First Search
 
     CREATE empty set Visited
 
@@ -42,7 +42,7 @@ Depth first search
             END IF
         END FOR
     END DFS_Visit
-Mini-max
+# 🎮 Minimax
 Minimax(Node, Depth, IsMax)
 
     IF Depth = 0 OR Node is leaf THEN
@@ -54,7 +54,7 @@ Minimax(Node, Depth, IsMax)
     ELSE
         RETURN min(Minimax(children))
     END IF
-Uniform cost search
+# 💰 Uniform cost search
     CREATE priority queue PQ
     CREATE set Visited
 
@@ -77,7 +77,7 @@ Uniform cost search
         END IF
     END WHILE
 
-Greedy Best First search
+# 🚀 Greedy Best First search
 
 GreedySearch(Graph, Start, Goal)
 
@@ -91,7 +91,7 @@ GreedySearch(Graph, Start, Goal)
         INSERT neighbors into PQ
     END WHILE
 
-Breadth First search
+# 📡 Breadth First search
 BFS(Graph, StartNode)
 
     CREATE empty queue Q
@@ -115,7 +115,7 @@ BFS(Graph, StartNode)
 
 
 
-Alpha beta pruning
+# 🎯 Alpha beta pruning
 AlphaBeta(Node, Depth, α, β, IsMax)
 
     IF Depth = 0 THEN RETURN value
@@ -133,7 +133,7 @@ AlphaBeta(Node, Depth, α, β, IsMax)
     END IF
 
 
-A *search
+# 🌟 A *search
 AStar(Graph, Start, Goal)
 
     CREATE priority queue PQ
@@ -154,8 +154,7 @@ AStar(Graph, Start, Goal)
 
 
 
-Water Jug problem
-
+# 🧩 Water Jug problem
 WaterJug(Jug1, Jug2, Target)
 
     CREATE queue Q
@@ -178,7 +177,7 @@ WaterJug(Jug1, Jug2, Target)
 
     PRINT "Target Not Possible"  
 
- DecisionTree(Dataset, Target)
+ # 🌳 DecisionTree(Dataset, Target)
 
     IF all records belong to same class THEN
         RETURN that class
@@ -199,7 +198,7 @@ WaterJug(Jug1, Jug2, Target)
 RETURN Decision Tree
 
 
-CryptArithmetic()
+# 🔐 CryptArithmetic()
 
     FOR all possible digits S,E,N,D,M,O,R,Y from 0 to 9 DO
         ENSURE all digits are different
@@ -215,9 +214,7 @@ CryptArithmetic()
 
 END CryptArithmetic
 
-
-
-
+# 🧠 Neural Network
 NeuralNetwork(Inputs, Weights, Bias)
 
     INITIALIZE weights and bias
