@@ -43,7 +43,6 @@ The objective of this laboratory work is to analyse how intelligent systems expl
         END FOR
     END DFS_Visit
 ### 🎮 Minimax
-Minimax(Node, Depth, IsMax)
 
     IF Depth = 0 OR Node is leaf THEN
         RETURN value
@@ -79,8 +78,6 @@ Minimax(Node, Depth, IsMax)
 
 ### 🚀 Greedy Best First search
 
-GreedySearch(Graph, Start, Goal)
-
     CREATE priority queue PQ
     INSERT Start using heuristic
 
@@ -92,7 +89,6 @@ GreedySearch(Graph, Start, Goal)
     END WHILE
 
 ### 📡 Breadth First search
-BFS(Graph, StartNode)
 
     CREATE empty queue Q
     CREATE empty set Visited
@@ -116,7 +112,6 @@ BFS(Graph, StartNode)
 
 
 ### 🎯 Alpha beta pruning
-AlphaBeta(Node, Depth, α, β, IsMax)
 
     IF Depth = 0 THEN RETURN value
 
@@ -134,7 +129,6 @@ AlphaBeta(Node, Depth, α, β, IsMax)
 
 
 ### 🌟 A *search
-AStar(Graph, Start, Goal)
 
     CREATE priority queue PQ
     INSERT (f=0, Start)
@@ -155,7 +149,6 @@ AStar(Graph, Start, Goal)
 
 
 ### 🧩 Water Jug problem
-WaterJug(Jug1, Jug2, Target)
 
     CREATE queue Q
     CREATE set Visited
@@ -215,7 +208,6 @@ RETURN Decision Tree
 END CryptArithmetic
 
 ### 🧠 Neural Network
-NeuralNetwork(Inputs, Weights, Bias)
 
     INITIALIZE weights and bias
     FOR each training example DO
