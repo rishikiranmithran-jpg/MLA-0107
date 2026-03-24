@@ -1,4 +1,4 @@
 
 # 🤖 AI & Expert Systems Lab
 
-👉 **[View Interactive README](https://yourusername.github.io/repo-name/)**
+👉 **[View Interactive README](https://github.com/rishikiranmithran-jpg/MLA-0107)**
