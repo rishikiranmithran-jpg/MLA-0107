@@ -39,15 +39,13 @@ The objective of this laboratory work is to analyse how intelligent systems expl
     
 ### 🎮 Minimax
 
-    IF Depth = 0 OR Node is leaf THEN
-        RETURN value
-    END IF
-
-    IF IsMax THEN
-        RETURN max(Minimax(children))
-    ELSE
-        RETURN min(Minimax(children))
-    END IF
+    IF depth = 0 → RETURN node value
+      IF Max player
+        RETURN max(left subtree, right subtree)
+      ELSE
+        RETURN min(left subtree, right subtree)
+    END
+        
 ### 💰 Uniform cost search
     CREATE priority queue PQ
     INSERT Start with cost 0
