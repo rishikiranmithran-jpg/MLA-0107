@@ -29,19 +29,14 @@ The objective of this laboratory work is to analyse how intelligent systems expl
 ### 🔎 Depth First Search
 
     CREATE empty set Visited
-
-    CALL DFS_Visit(StartNode)
-
-    DFS_Visit(Node)
-        ADD Node to Visited
-        VISIT Node
-
-        FOR each Neighbor of Node in Graph DO
-            IF Neighbor not in Visited THEN
-                CALL DFS_Visit(Neighbor)
-            END IF
-        END FOR
-    END DFS_Visit
+    DFS(Node)
+       ADD Node to Visited
+       VISIT Node
+       FOR each unvisited Neighbor
+          CALL DFS(Neighbor)
+    END
+    CALL DFS(StartNode)
+    
 ### 🎮 Minimax
 
     IF Depth = 0 OR Node is leaf THEN
