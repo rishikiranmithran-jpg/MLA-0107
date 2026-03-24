@@ -59,14 +59,12 @@ The objective of this laboratory work is to analyse how intelligent systems expl
     
 ### 🚀 Greedy Best First search
 
-    CREATE priority queue PQ
-    INSERT Start using heuristic
-
-    WHILE PQ not empty DO
-        Node ← REMOVE lowest heuristic node
-        PRINT Node
-        IF Node = Goal THEN EXIT
-        INSERT neighbors into PQ
+    INSERT Start into priority queue (based on heuristic)
+    
+    WHILE queue not empty
+      REMOVE node with lowest heuristic
+      IF node is Goal → STOP
+      INSERT neighbours into queue
     END WHILE
 
 ### 📡 Breadth First search
